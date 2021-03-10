@@ -1,0 +1,12 @@
+language: node_js
+node_js: 12
+before_script:
+  - cd server
+  - npm install
+  - sudo systemctl start mongod
+script:
+  - npm test --coverage
+
+branches:
+  only:
+    - backend_test

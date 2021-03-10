@@ -1,0 +1,12 @@
+{
+  "Lung cancer": ["Oncology"],
+  "Brain cancer": ["Oncology", "Neurology"],
+  "Breast cancer": ["Oncology", "Gynecology"],
+  "Leukemia": ["Oncology"],
+  "Chronic anxiety": ["Psychiatry"],
+  "Pneumonia": ["Internal medicine", "Pulmonology"],
+  "Asthma": ["Internal medicine", "Pulmonology"],
+  "Popcorn lung disease": ["Internal medicine", "Pulmonology"],
+  "diabetes": ["Oncology", "Pulmonology"],
+  "obesity": ["Neurology"]
+}

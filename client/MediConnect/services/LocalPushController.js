@@ -1,0 +1,43 @@
+import PushNotification from 'react-native-push-notification';
+
+// PushNotification.configure({
+//     // (required) Called when a remote or local notification is opened or received
+//     onNotification: function(notification) {
+//       console.log('LOCAL NOTIFICATION ==>', notification)
+//     },
+//     popInitialNotification: true,
+//     requestPermissions: true
+// })
+
+// const LocalPushController = () => {
+//     console.log("in here")
+//     useEffect(() => {
+//         PushNotification.configure({
+//             // (required) Called when a remote or local notification is opened or received
+//             onNotification: function(notification) {
+//               console.log('LOCAL NOTIFICATION ==>', notification)
+//             },
+//           popInitialNotification: true,
+//             requestPermissions: true
+//         })
+//     }, [])
+//   return null
+// }
+
+export const LocalNotification = () => {
+	console.log("I'm here");
+
+	PushNotification.localNotification({
+		// autoCancel: true,
+		bigText:
+			'This is local notification demo in React Native app. Only shown, when expanded.',
+		subText: 'Local Notification Demo',
+		title: 'Local Notification Title',
+		// message: 'Expand me to see more',
+		// vibrate: true,
+		// vibration: 300,
+		// playSound: true,
+		// soundName: 'default',
+		// actions: '["Yes", "No"]'
+	});
+};

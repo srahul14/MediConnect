@@ -1,0 +1,40 @@
+{
+	"project_info": {
+		"project_number": "71350623664",
+		"firebase_url": "https://mediconnect-f0c25.firebaseio.com",
+		"project_id": "mediconnect-f0c25",
+		"storage_bucket": "mediconnect-f0c25.appspot.com"
+	},
+	"client": [
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:71350623664:android:c9d53a1cd7dabd93204a75",
+				"android_client_info": {
+					"package_name": "com.mediconnect"
+				}
+			},
+			"oauth_client": [
+				{
+					"client_id": "71350623664-ld5cef91u9522078a8uspco301ji97qo.apps.googleusercontent.com",
+					"client_type": 3
+				}
+			],
+			"api_key": [
+				{
+					"current_key": "AIzaSyDILa-J8-MgHoTCVfP2yhP0rkcMubs33UQ"
+				}
+			],
+			"services": {
+				"appinvite_service": {
+					"other_platform_oauth_client": [
+						{
+							"client_id": "71350623664-ld5cef91u9522078a8uspco301ji97qo.apps.googleusercontent.com",
+							"client_type": 3
+						}
+					]
+				}
+			}
+		}
+	],
+	"configuration_version": "1"
+}
